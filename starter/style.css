@@ -5,10 +5,18 @@
     margin: 0;  
     padding: 0;
     box-sizing: border-box;
+    
+}
+
+img{
+    width: 100%;
+    height: 100%;
 }
 body{
     font-family: 'Inter', sans-serif;
 }
+
+
 /* ==== Major fixes ends here  ==== */
 
 /* ==== first section starts here ==== */
@@ -74,10 +82,80 @@ span{
 
 
 /* ==== second section start here ==== */
+
+.secsection{
+    /* height: 300px; */
+    /* border: var(--black-bolder); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    flex-wrap: wrap;
+    
+    
+    
+}
+.secsection-leftdiv{
+    height: 400px;
+    width: 310px;
+    background: var( --gray-color);
+    padding: 40px 20px;
+    text-align: center;
+    
+}
+.secsection-leftdiv p{
+    text-align: left;
+    margin: 20px 0;
+}
+
+
+.secsection-rightdiv{
+    height:460px;
+    width: 340px;
+    background:var(--main-color) ;
+    margin-left: 20px;
+
+}
+
+
 /* ==== second section ends here ==== */
 
 
 /* ==== third section start here ==== */
+.thirdsection{
+ /* border: var( --black-bolder); */
+ padding: 30px o;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-wrap: wrap;
+    
+
+}
+
+
+.thirdsection-leftdiv{
+    /* background: var(--gray-color); */
+    height: 460px;
+    width: 340px;
+
+}
+
+.thirdsection-rightdiv{
+    background: var(--main-color);
+    height: 460px;
+    width: 340px;
+    padding: 40px 20px;
+    /* text-align: center; */
+}
+
+.thirdsection-rightdiv p{
+    margin: 20px 0;
+    text-align: left;
+
+}
+
+
 /* ==== third section ends here ==== */
 
 
